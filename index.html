@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nova Tech Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="page-loader">
+  <div class="loader-logo">NOVA</div>
+  <div class="loader-sub">Initializing systems...</div>
+  <div class="loader-track"><div class="loader-fill"></div></div>
+  <div class="loader-pct">0%</div>
+</div>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="brand">
+    <div class="brand-mark">N</div>
+    <div>
+      <h1>Nova Tech Hub</h1>
+      <p>Premium mobile shopping & secure operations</p>
+    </div>
+  </div>
+  <nav class="desktop-nav">
+    <a href="store.html">Mobile Store</a>
+    <a href="dashboard.html">Dashboard</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero hero-landing" style="background-image:url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1800&q=80');">
+    <div class="hero-overlay"></div>
+    <div class="hero-copy will-reveal">
+      <p class="eyebrow">// Welcome to Nova Tech Hub</p>
+      <h2 data-type="Discover modern phones.|Secure operations.|Premium experience.">
+        <!-- typed by JS -->
+      </h2>
+      <p class="hero-text">Browse the latest smartphone selection, control operations securely, and stay connected with your customers — all in one place.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="store.html">Visit Store</a>
+        <a class="btn btn-secondary" href="dashboard.html">Open Dashboard</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats-row">
+    <div class="stat"><span class="stat-num counter" data-target="4200" data-suffix="+">0</span><span class="stat-label">Happy Customers</span></div>
+    <div class="stat"><span class="stat-num counter" data-target="320" data-suffix="+">0</span><span class="stat-label">Products Listed</span></div>
+    <div class="stat"><span class="stat-num counter" data-target="99" data-suffix="%">0</span><span class="stat-label">Uptime</span></div>
+    <div class="stat"><span class="stat-num counter" data-target="24" data-suffix="/7">0</span><span class="stat-label">Support</span></div>
+  </div>
+
+  <!-- FEATURES -->
+  <section class="features">
+    <h2>What You Get</h2>
+    <div class="feature-grid">
+      <article class="feature-card">
+        <div style="font-size:32px;margin-bottom:16px;">📱</div>
+        <h3>Clean Responsive Layout</h3>
+        <p>Adaptive page structure engineered for desktop, tablet, and mobile users without compromise.</p>
+      </article>
+      <article class="feature-card">
+        <div style="font-size:32px;margin-bottom:16px;">🛍️</div>
+        <h3>Modern Product Showcase</h3>
+        <p>Organized product cards, gallery previews, and one-tap contact access for your customers.</p>
+      </article>
+      <article class="feature-card">
+        <div style="font-size:32px;margin-bottom:16px;">⚡</div>
+        <h3>Simple Navigation</h3>
+        <p>One-click access to your store and dashboard pages from any device, anywhere.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- PREVIEW -->
+  <section class="preview-grid">
+    <div class="preview-grid-inner">
+      <article class="preview-card">
+        <div style="font-size:40px;margin-bottom:20px;">🏪</div>
+        <h3>Storefront</h3>
+        <p>Clean product cards, pricing details, and fast contact links for your customers — built to convert.</p>
+        <a class="link-btn" href="store.html">Explore Store →</a>
+      </article>
+      <article class="preview-card">
+        <div style="font-size:40px;margin-bottom:20px;">📊</div>
+        <h3>Manager Dashboard</h3>
+        <p>Native dashboard design for sales, inventory, and customer monitoring in real time.</p>
+        <a class="link-btn" href="dashboard.html">Open Dashboard →</a>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© 2026 Nova Tech Hub · All rights reserved · Built by musa abdi tahir</p>
+</footer>
+
+<script src="script.js"></script>
+<!-- Counter alias for stat-num -->
+<script>
+  // wire up counters (stat-num has data-target already set)
+  document.querySelectorAll('.stat-num').forEach(el => {
+    el.dataset.target = el.dataset.target;
+  });
+</script>
+</body>
+</html>
